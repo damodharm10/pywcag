@@ -1,3 +1,4 @@
+
 class altvalidator:
 
     def __init__(self):
