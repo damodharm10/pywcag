@@ -7,8 +7,68 @@
     <frame src="doc.html" title="Documents" />
     <noframes>
         <body>
+
+        <form action="#" method="post">
+            <table summary="the first column contains the search criteria
+  of the groom, the second column the search criteria of
+  of the bride">
+                <caption>Search for marriage records</caption>
+                <tr>
+                    <th>Search criteria</th>
+                    <th>Groom</th>
+                    <th>Bride</th>
+                </tr>
+                <tr>
+                    <th>First name</th>
+                    <td><input type="text" size="30" value="" name="groomfirst"
+                               title="First name of the groom" tabindex="1"></td>
+                    <td><input type="text" size="30" value="" name="bridefirst"
+                               title="First name of the bride" tabindex="4"></td>
+                </tr>
+                <tr>
+                    <th>Last name</th>
+                    <td><input type="text" size="30" value="" name="groomlast"
+                               title="Last name of the groom" tabindex="2"></td>
+                    <td><input type="text" size="30" value="" name="bridelast"
+                               title="Last name of the bride" tabindex="5"></td>
+                </tr>
+                <tr>
+                    <th>Place of birth</th>
+                    <td><input type="text" size="30" value="" name="groombirth"
+                               title="Place of birth of the groom" tabindex="3"></td>
+                    <td><input type="text" size="30" value="" name="bridebirth"
+                               title="Place of birth of the bride" tabindex="6"></td>
+                </tr>
+            </table>
+        </form>
         <a href="lib.html" title="Library link">Select to
             go to the electronic library</a>
+
+        <img longdesc="thispage.html#desc" alt="Line graph of the number of subscribers" src="http://www.company/images/graph.png">
+        <div id="desc">
+            <h3>Long Description: Line graph of the number of subscribers</h3>
+            <!-- Full Description of Graph -->
+            <p>Long description ends.</p>
+            <div>
+
+
+                <embed src="../movies/history_of_rome.mov"
+                       height="60" width="144" autostart="false">
+                <noembed>
+                    <a href="../transcripts/transcript_history_rome.htm">Transcript of "The history of Rome"</a>
+                </noembed>
+                </embed>
+
+        <form action="http://www.example.com/cgi/redirect/" method="get"><br />
+            <p>Navigate the site.</p><br />
+            <select name="dest"><br />
+                <option value="/index.html">Home</option/><br />
+                <option value="/blog/index.html">My blog</option/><br />
+                <option value="/tutorials/index.html">Tutorials</option/><br />
+                <option value="/search.html">Search</option/><br />
+            </select><br />
+            <input type="submit" value="Go to Page" /><br />
+        </form>
         </body>
     </noframes>
 </frameset>

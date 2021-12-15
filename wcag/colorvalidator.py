@@ -1,6 +1,8 @@
 import webcolors
 from decimal import Decimal as D
 
+from PIL.ImageOps import colorize
+
 WCAG_LUMINOCITY_RATIO_THRESHOLD = {
     "AA": {
         'normal': 4.5,
